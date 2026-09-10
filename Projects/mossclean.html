@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI-Powered Autonomous Surface Cleaning Robot | Emmanuel Thomas</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="project-detail-page">
+
+    <!-- ==================== NAVBAR ==================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="../index.html" class="logo">
+                Emmanuel Thomas
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation"
+            >
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="../index.html">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#certifications">Certifications</a>
+                <a href="../index.html#resume">Resume</a>
+                <a href="../index.html#contact">Contact</a>
+
+                <a
+                    href="https://www.linkedin.com/in/emmanuel-thomas27"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+                <a
+                    href="https://github.com/EmmanuelThomas2004"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <button
+                    id="themeToggle"
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Toggle theme"
+                >
+                    ◐
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== PROJECT ==================== -->
+
+    <main class="sales-project">
+
+
+        <!-- ==================== INTRO ==================== -->
+
+        <section class="sales-intro">
+
+            <div class="sales-intro-content">
+
+                <span class="project-label">
+                    AI • COMPUTER VISION • ROBOTICS
+                </span>
+
+                <h1>
+                    AI-Powered Autonomous Surface Cleaning Robot (MossClean)
+                </h1>
+
+                <p>
+                    An autonomous surface-cleaning robot designed to detect
+                    moss using computer vision and perform targeted cleaning
+                    with autonomous navigation and obstacle avoidance.
+                </p>
+
+                <p>
+                    The system combines Raspberry Pi, YOLOv11n, OpenCV,
+                    autonomous navigation, targeted spraying and a Flask-based
+                    web monitoring dashboard.
+                </p>
+
+            </div>
+
+
+            <!-- COVER -->
+
+            <div class="sales-intro-cover">
+
+                <img
+                    src="../assets/mossclean-cover.jpg"
+                    alt="AI-Powered Autonomous Surface Cleaning Robot"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== KEY METRICS ==================== -->
+
+        <section class="sales-metrics">
+
+            <div class="sales-metric">
+
+                <strong>YOLOv11n</strong>
+
+                <span>
+                    Detection Model
+                </span>
+
+            </div>
+
+
+            <div class="sales-metric">
+
+                <strong>64.6%</strong>
+
+                <span>
+                    Precision
+                </span>
+
+            </div>
+
+
+            <div class="sales-metric">
+
+                <strong>58.8%</strong>
+
+                <span>
+                    mAP@50
+                </span>
+
+            </div>
+
+
+            <div class="sales-metric">
+
+                <strong>130–160ms</strong>
+
+                <span>
+                    Inference / Frame
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== PROJECT OVERVIEW ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Project Overview
+                </h2>
+
+            </div>
+
+            <p>
+                MossClean is an autonomous surface-cleaning robot that
+                combines computer vision, embedded systems and autonomous
+                navigation to detect and clean moss-covered surfaces.
+            </p>
+
+            <p>
+                The robot uses a Raspberry Pi with an OV5647 camera for
+                visual input, YOLOv11n for moss detection, ultrasonic
+                sensors for obstacle detection and a targeted spraying
+                mechanism for cleaning.
+            </p>
+
+        </section>
+
+
+        <!-- ==================== PROBLEM & SOLUTION ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Problem & Solution
+                </h2>
+
+            </div>
+
+
+            <div class="sales-focus-grid">
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Problem
+                    </h3>
+
+                    <p>
+                        Moss growth on outdoor surfaces can make cleaning
+                        difficult, time-consuming and dependent on manual
+                        inspection and treatment.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Solution
+                    </h3>
+
+                    <p>
+                        MossClean detects moss automatically, navigates
+                        across the surface, avoids obstacles and performs
+                        targeted cleaning where moss is detected.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Autonomous Navigation
+                    </h3>
+
+                    <p>
+                        GPS-independent navigation uses dead reckoning,
+                        occupancy grids, heading correction and
+                        differential PWM control.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Smart Cleaning
+                    </h3>
+
+                    <p>
+                        The system activates targeted spraying based on
+                        detected moss regions while maintaining autonomous
+                        surface coverage.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== AI DEVELOPMENT ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    AI Development
+                </h2>
+
+            </div>
+
+            <p>
+                The computer vision system was developed around YOLOv11n
+                for moss detection. Image data was collected and prepared
+                for model training, followed by testing and integration
+                with the Raspberry Pi vision pipeline.
+            </p>
+
+
+            <div class="sales-focus-grid">
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Computer Vision
+                    </h3>
+
+                    <p>
+                        OpenCV and YOLOv11n were used for real-time
+                        image processing and moss detection.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Model Training
+                    </h3>
+
+                    <p>
+                        Image data was collected, prepared and used
+                        to train and evaluate the moss detection model.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        AI Integration
+                    </h3>
+
+                    <p>
+                        The trained detection model was integrated into
+                        the robot's real-time control and cleaning pipeline.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Prompt Engineering
+                    </h3>
+
+                    <p>
+                        Prompt engineering and AI-assisted development
+                        were used throughout software, web and computer
+                        vision development.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== TECHNOLOGY ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Technology
+                </h2>
+
+            </div>
+
+
+            <div class="sales-focus-grid">
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Computer Vision
+                    </h3>
+
+                    <p>
+                        YOLOv11n, OpenCV and OV5647 5MP camera.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Navigation
+                    </h3>
+
+                    <p>
+                        Dead reckoning, occupancy grid,
+                        proportional heading correction,
+                        differential PWM and A* frontier recovery.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Obstacle Avoidance
+                    </h3>
+
+                    <p>
+                        Four HC-SR04 ultrasonic sensors,
+                        LM393 optical encoders and MPU-6050 IMU.
+                    </p>
+
+                </div>
+
+
+                <div class="sales-focus-card">
+
+                    <h3>
+                        Web Monitoring
+                    </h3>
+
+                    <p>
+                        Flask dashboard with live telemetry
+                        and SMTP alerts.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== ROBOT PROTOTYPE ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Robot Prototype
+                </h2>
+
+            </div>
+
+
+            <div class="mossclean-feature-image">
+
+                <img
+                    src="../assets/mossclean-robot.jpg"
+                    alt="MossClean Robot Prototype"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== PROJECT PHOTOS ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Project Highlights
+                </h2>
+
+            </div>
+
+
+            <div class="mossclean-gallery">
+
+
+                <!-- CERTIFICATE -->
+
+                <div class="mossclean-gallery-item">
+
+                    <h3>
+                        Winner Certificate
+                    </h3>
+
+                    <img
+                        src="../assets/mossclean-certificate.jpg"
+                        alt="MossClean Winner Certificate"
+                    >
+
+                </div>
+
+
+                <!-- DETECTION -->
+
+                <div class="mossclean-gallery-item">
+
+                    <h3>
+                        Moss Detection
+                    </h3>
+
+                    <img
+                        src="../assets/mossclean-detection.jpg"
+                        alt="MossClean Moss Detection"
+                    >
+
+                </div>
+
+
+                <!-- WEBSITE -->
+
+                <div class="mossclean-gallery-item">
+
+                    <h3>
+                        Web Monitoring Dashboard
+                    </h3>
+
+                    <img
+                        src="../assets/mossclean-website.jpg"
+                        alt="MossClean Web Monitoring Dashboard"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== RESULTS ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Results
+                </h2>
+
+            </div>
+
+
+            <div class="sales-insights">
+
+
+                <div class="sales-insight-card">
+
+                    <strong>
+                        64.6%
+                    </strong>
+
+                    <span>
+                        Precision
+                    </span>
+
+                </div>
+
+
+                <div class="sales-insight-card">
+
+                    <strong>
+                        56.9%
+                    </strong>
+
+                    <span>
+                        Recall
+                    </span>
+
+                </div>
+
+
+                <div class="sales-insight-card">
+
+                    <strong>
+                        58.8%
+                    </strong>
+
+                    <span>
+                        mAP@50
+                    </span>
+
+                </div>
+
+
+                <div class="sales-insight-card">
+
+                    <strong>
+                        130–160ms
+                    </strong>
+
+                    <span>
+                        Raspberry Pi Inference
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== AI-ASSISTED DEVELOPMENT ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    AI-Assisted Development
+                </h2>
+
+            </div>
+
+
+            <div class="tech-tags">
+
+                <span>
+                    Prompt Engineering
+                </span>
+
+                <span>
+                    Computer Vision
+                </span>
+
+                <span>
+                    AI Model Training
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== TOOLS USED ==================== -->
+
+        <section class="sales-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Tools Used
+                </h2>
+
+            </div>
+
+
+            <div class="tech-tags">
+
+                <span>
+                    Raspberry Pi
+                </span>
+
+                <span>
+                    Python
+                </span>
+
+                <span>
+                    OpenCV
+                </span>
+
+                <span>
+                    YOLOv11n
+                </span>
+
+                <span>
+                    Flask
+                </span>
+
+                <span>
+                    Computer Vision
+                </span>
+
+                <span>
+                    Embedded Systems
+                </span>
+
+                <span>
+                    Ultrasonic Sensors
+                </span>
+
+                <span>
+                    MPU-6050 IMU
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== PROJECT ACTIONS ==================== -->
+
+        <section class="project-actions">
+
+            <a
+                href="https://github.com/EmmanuelThomas2004/MossClean-An-Autonomous-Surface-Cleaning-Robot-with-Smart-Detection-and-Web-Based-Monitoring."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn primary-btn"
+            >
+                View Project on GitHub
+            </a>
+
+
+            <a
+                href="../index.html#projects"
+                class="btn secondary-btn"
+            >
+                ← Back to Projects
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Emmanuel Thomas. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
