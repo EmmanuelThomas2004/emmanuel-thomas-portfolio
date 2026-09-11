@@ -2316,3 +2316,171 @@ body.light-theme .footer {
     </div>
 
 </header>
+
+/* =========================================================
+   LIGHT MODE — REQUIRED TEXT & CARD FIXES
+   ========================================================= */
+
+/* Resume */
+body.light-theme .resume-box {
+    background: #ffffff;
+    border-color: #dce2ea;
+}
+
+body.light-theme .resume-box h2 {
+    color: #172033;
+}
+
+body.light-theme .resume-box > div > p:last-child {
+    color: #667085;
+}
+
+/* Contact */
+body.light-theme .contact-card strong {
+    color: #172033;
+}
+
+/* Hero */
+body.light-theme .hero-description {
+    color: #667085;
+}
+
+body.light-theme .hero-meta-card strong {
+    color: #172033;
+}
+
+/* Project metric and information boxes */
+body.light-theme .metric-card,
+body.light-theme .sales-metric,
+body.light-theme .sales-focus-card,
+body.light-theme .sales-dashboard-image,
+body.light-theme .sales-insight-card,
+body.light-theme .sales-workflow span,
+body.light-theme .sales-tools span {
+    background: #ffffff;
+    border-color: #dce2ea;
+}
+
+/* Metric values */
+body.light-theme .metric-card strong,
+body.light-theme .sales-metric strong,
+body.light-theme .sales-insight-card strong,
+body.light-theme .sales-insights strong,
+body.light-theme .highlight-card strong {
+    color: #172033;
+}
+
+/* Supporting text */
+body.light-theme .sales-metric span,
+body.light-theme .sales-insight-card span,
+body.light-theme .sales-focus-card p {
+    color: #667085;
+}
+
+/* Workflow and tools */
+body.light-theme .sales-workflow span,
+body.light-theme .sales-tools span {
+    color: #172033;
+}
+
+/* =========================================================
+   LIGHT MODE — FINAL REQUIRED FIXES
+   ========================================================= */
+
+body.light-theme .resume-box {
+    background: #ffffff !important;
+    border-color: #dce2ea !important;
+}
+
+body.light-theme .resume-box h2 {
+    color: #172033 !important;
+}
+
+body.light-theme .resume-box p {
+    color: #667085 !important;
+}
+
+body.light-theme .contact-card strong {
+    color: #172033 !important;
+}
+
+body.light-theme .hero-description {
+    color: #667085 !important;
+}
+
+body.light-theme .hero-meta-card strong {
+    color: #172033 !important;
+}
+
+body.light-theme .metric-card,
+body.light-theme .sales-metric,
+body.light-theme .sales-focus-card,
+body.light-theme .sales-insight-card,
+body.light-theme .sales-workflow span,
+body.light-theme .sales-tools span {
+    background: #ffffff !important;
+    border-color: #dce2ea !important;
+}
+
+body.light-theme .metric-card strong,
+body.light-theme .sales-metric strong,
+body.light-theme .sales-insight-card strong,
+body.light-theme .sales-insights strong,
+body.light-theme .highlight-card strong {
+    color: #172033 !important;
+}
+
+body.light-theme .sales-metric span,
+body.light-theme .sales-insight-card span,
+body.light-theme .sales-focus-card p {
+    color: #667085 !important;
+}
+
+body.light-theme .sales-workflow span,
+body.light-theme .sales-tools span {
+    color: #172033 !important;
+}
+
+
+/* LIGHT MODE — HEALTHCARE WORKFLOW */
+body.light-theme .workflow span,
+body.light-theme .workflow-step span,
+body.light-theme .workflow-item,
+body.light-theme .workflow-item span,
+body.light-theme .process-step,
+body.light-theme .process-step span {
+    color: #172033 !important;
+    background: #ffffff !important;
+    border-color: #dce2ea !important;
+}
+
+
+/* LIGHT MODE — HEALTHCARE WORKFLOW LABELS */
+body.light-theme .sales-workflow strong,
+body.light-theme .sales-workflow b,
+body.light-theme .sales-workflow a,
+body.light-theme .sales-workflow p,
+body.light-theme .sales-workflow label,
+body.light-theme .sales-workflow small,
+body.light-theme .workflow strong,
+body.light-theme .workflow b,
+body.light-theme .workflow a,
+body.light-theme .workflow p,
+body.light-theme .workflow label,
+body.light-theme .workflow small,
+body.light-theme .workflow-step strong,
+body.light-theme .workflow-step b,
+body.light-theme .workflow-step a,
+body.light-theme .workflow-step p,
+body.light-theme .workflow-step label,
+body.light-theme .workflow-step small {
+    color: #172033 !important;
+}
+
+
+/* LIGHT MODE — GLOBAL SALES PROJECT OVERVIEW */
+body.light-theme .sales-project .sales-intro + .sales-metrics + .sales-overview p,
+body.light-theme .sales-project p {
+    color: #172033 !important;
+}
+
