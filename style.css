@@ -2484,3 +2484,24 @@ body.light-theme .sales-project p {
     color: #172033 !important;
 }
 
+
+/* =========================================================
+   INTERNSHIP EXPERIENCE
+========================================================= */
+
+.internship-entry ul {
+    margin-top: 10px;
+    padding-left: 20px;
+
+    color: #91a0b5;
+
+    font-size: 14px;
+}
+
+.internship-entry li + li {
+    margin-top: 8px;
+}
+
+body.light-theme .internship-entry ul {
+    color: #667085;
+}
